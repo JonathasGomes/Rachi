@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito:wght@700&family=Sora:wght@400;600&display=swap');
+
+
+:root {
+    --cor-azul: #0F9AFE;
+    --cor-fonte-primario: #293145;
+    --cor-fonte-secundario: #6E7275;
+    --cor-fundo: #EFF8FF;
+    --cor-preto: #000000;
+    --cor-branco: #fff;
+    --font-inter: 'Inter', sans-serif;
+    --font-nunito: 'Nunito', sans-serif;
+    --font-sora: 'Sora', sans-serif;
+}
+
+* {
+   font-family: var(--font-inter);
+}
+
+/* .teste {
+    padding-left: 135px !important;
+    padding-right: 135px !important;
+} */
+
+.banner-1, .banner-3 {
+    background-color: var(--cor-fundo);
+}
+
+.banner-1 {
+    height: 100vh;
+}
+.nav-link {
+    color: var(--cor-fonte-secundario) !important;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--cor-fonte-primario) !important;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: black !important;
+}
+
+.navbar-flex {
+    display: flex !important;
+    justify-content: space-around !important;
+}
+h1, h2 {
+    font-family: var(--font-sora);
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.ancora {
+    background-color: #0F9AFE;
+    color: var(--cor-branco);
+    text-decoration: none;
+    padding: 16px 36px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.recursos-div h5 {
+    font-family: var(--font-sora);
+    font-weight: 600;
+}
+
+.recursos-div p {
+    color: var(--cor-fonte-secundario);
+    width: 300px;
+    font-family: var(--font-inter);
+}
+
+.card-plan-white {
+    background-color: var(--cor-fundo);
+}
+
+.card-plan-blue {
+    background-color: var(--cor-fonte-primario);
+}
+
+.card-plan-white p {
+    color: var(--cor-fonte-secundario);
+}

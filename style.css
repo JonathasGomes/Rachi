@@ -29,7 +29,7 @@
 }
 
 .banner-1, .banner-4 {
-    height: 100vh;
+    /* height: 100vh; */
 }
 .nav-link {
     color: var(--cor-fonte-secundario) !important;
@@ -92,6 +92,10 @@ h1 {
     background-color: var(--cor-fonte-primario);
 }
 
+.card-plan-blue h5, .card-plan-white h5 {
+    font-family: var(--font-sora);
+}
+
 .card-plan-blue p {
     color: var(--cor-p-card-azul);
 }
@@ -110,4 +114,5 @@ h1 {
 .banner-5 {
     background-image: url(assets/contato-background.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -8,9 +8,11 @@
     --cor-fundo: #EFF8FF;
     --cor-preto: #000000;
     --cor-branco: #fff;
+    --cor-p-card-azul: #DBDBDB;
     --font-inter: 'Inter', sans-serif;
     --font-nunito: 'Nunito', sans-serif;
     --font-sora: 'Sora', sans-serif;
+    /* --bs-border-width: none; */
 }
 
 * {
@@ -26,7 +28,7 @@
     background-color: var(--cor-fundo);
 }
 
-.banner-1 {
+.banner-1, .banner-4 {
     height: 100vh;
 }
 .nav-link {
@@ -54,13 +56,20 @@ h1 {
     font-size: 48px;
 }
 
-.ancora {
+.ancora, .ancora-plano {
     background-color: #0F9AFE;
     color: var(--cor-branco);
     text-decoration: none;
-    padding: 16px 36px;
     cursor: pointer;
     font-weight: 600;
+}
+
+.ancora {
+    padding: 16px 36px;
+}
+
+.ancora-plano {
+    padding: 10px 70px;
 }
 
 .recursos-div h5 {
@@ -76,12 +85,29 @@ h1 {
 
 .card-plan-white {
     background-color: var(--cor-fundo);
+    border: none;
 }
 
 .card-plan-blue {
     background-color: var(--cor-fonte-primario);
 }
 
+.card-plan-blue p {
+    color: var(--cor-p-card-azul);
+}
+
 .card-plan-white p {
     color: var(--cor-fonte-secundario);
+}
+
+.span-destaque {
+    background-color: #0F9AFE;
+    color: var(--cor-branco);
+    text-decoration: none;
+    width: 50%;
+}
+
+.banner-5 {
+    background-image: url(assets/contato-background.png);
+    background-repeat: no-repeat;
 }

@@ -64,12 +64,16 @@ h1 {
     font-weight: 600;
 }
 
+.teste {
+    width: 100%;
+}
+
 .ancora {
-    padding: 16px 36px;
+    /* padding: 16px 36px; */
 }
 
 .ancora-plano {
-    padding: 10px 70px;
+    /* padding: 10px 70px; */
 }
 
 .recursos-div h5 {
@@ -79,7 +83,7 @@ h1 {
 
 .recursos-div p {
     color: var(--cor-fonte-secundario);
-    width: 300px;
+    /* width: 300px; */
     font-family: var(--font-inter);
 }
 
@@ -109,10 +113,19 @@ h1 {
     color: var(--cor-branco);
     text-decoration: none;
     width: 50%;
+    letter-spacing: 2px;
+    font-size: 14px;
 }
 
 .banner-5 {
     background-image: url(assets/contato-background.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+}
+
+footer h6 {
+    color: var(--cor-fonte-primario);
+    font-family: var(--font-sora);
+    font-weight: 400;
 }

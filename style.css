@@ -64,7 +64,7 @@ h1 {
     font-weight: 600;
 }
 
-.teste {
+.imagem-tamanho-ajuste {
     width: 100%;
 }
 
@@ -122,10 +122,31 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    -webkit-box-shadow: inset -24px 200px 300px 94px rgba(41,49,69,0.88);
+    -moz-box-shadow: inset -24px 200px 300px 94px rgba(41,49,69,0.88);
+    box-shadow: inset -24px 200px 300px 94px rgba(41,49,69,0.88);
 }
 
 footer h6 {
     color: var(--cor-fonte-primario);
     font-family: var(--font-sora);
     font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+    .padding-ajuste {
+        padding: 0 8% !important;
+    }
+}
+
+@media (min-width: 1400px) {
+    .padding-ajuste {
+        padding: 0 10% !important;
+    }
+}
+
+@media (min-width: 1800px) {
+    .padding-ajuste {
+        padding: 0 13% !important;
+    }
 }

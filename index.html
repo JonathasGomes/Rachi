@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="">
+  <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid padding-ajuste px-4">
         <a class="navbar-brand" href="#"><img src="assets/Rachi.png" alt="Logo Rachi"></a>
@@ -23,16 +23,16 @@
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
           <ul class="navbar-nav gap-4">
             <li class="nav-item">
-              <a class="nav-link active fw-light" aria-current="page" href="#">Funcionalidades</a>
+              <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">App</a>
+              <a class="nav-link" href="#app">App</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Planos</a>
+              <a class="nav-link" href="#planos">Planos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@
   </header>
 
   <main>
-      <section class="container-fluid banner-2 py-4 py-md-5">
+      <section class="container-fluid banner-2 py-4 py-md-5" id="funcionalidades">
         <h2 class="text-center my-5">Como Funciona</h2>
         <div class="text-center pb-0 row pb-md-5">
           <div class="recursos-div col-md-4 pb-3">
@@ -77,7 +77,7 @@
           </div>
         </div>
       </section>
-      <section class="container-fluid banner-3 justify-content-around d-flex py-5 text-center text-lg-start">
+      <section class="container-fluid banner-3 justify-content-around d-flex py-5 text-center text-lg-start" id="app">
         <div class="d-flex flex-column">
             <h2 class="mt-lg-5 pt-lg-4 fs-2">Baixe nosso app para desfrutar mais!</h2>
             <p class="py-3">Amet in elementum nulla scelerisque dui, egestas at. Elit<br> consectetur turpis elementum amet vitae et etiam nec.<br> Varius volutpat hac adipiscing tincidunt pretium.</p>
@@ -88,7 +88,7 @@
         </div>
         <img class="d-none d-lg-block" src="assets/notificacao.png" alt="">
       </section>
-      <section class="banner-4 pb-5">
+      <section class="banner-4 pb-5" id="planos">
         <div class="text-center my-5">
           <h2>Nossos Planos</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Donec lacinia mi quis euismod ultrices.</p>
@@ -121,15 +121,15 @@
           </div>
         </div>
       </section>
-      <section class="container-fluid banner-5 w-100 text-center" style="height: 384px;">
+      <section class="container-fluid banner-5 w-100 text-center" id="contato" style="height: 384px;">
         <div class="pt-5">
           <h2 class="text-white">Contato</h2>
           <p class="pt-3 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Donec lacinia mi quis euismod ultrices.</p>
         </div>
-        <div class="pt-5">
-          <input type="text">
-          <button></button>
-        </div>
+        <form class="pt-5 input-button-reset d-flex justify-content-center flex-column flex-md-row gap-4 gap-lg-4 px-4">
+          <input class="text-white" type="text" placeholder="Seu melhor e-mail">
+          <button class="py-3 px-md-5 py-md-1 rounded-5 text-white ancora">Enviar</button>
+        </form>
       </section>
   </main>
 

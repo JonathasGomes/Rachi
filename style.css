@@ -12,25 +12,24 @@
     --font-inter: 'Inter', sans-serif;
     --font-nunito: 'Nunito', sans-serif;
     --font-sora: 'Sora', sans-serif;
-    /* --bs-border-width: none; */
 }
 
 * {
    font-family: var(--font-inter);
 }
 
-/* .teste {
-    padding-left: 135px !important;
-    padding-right: 135px !important;
-} */
+body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
 
 .banner-1, .banner-3 {
     background-color: var(--cor-fundo);
 }
 
-.banner-1, .banner-4 {
-    /* height: 100vh; */
-}
 .nav-link {
     color: var(--cor-fonte-secundario) !important;
 }
@@ -68,14 +67,6 @@ h1 {
     width: 100%;
 }
 
-.ancora {
-    /* padding: 16px 36px; */
-}
-
-.ancora-plano {
-    /* padding: 10px 70px; */
-}
-
 .recursos-div h5 {
     font-family: var(--font-sora);
     font-weight: 600;
@@ -83,7 +74,6 @@ h1 {
 
 .recursos-div p {
     color: var(--cor-fonte-secundario);
-    /* width: 300px; */
     font-family: var(--font-inter);
 }
 
@@ -133,9 +123,25 @@ footer h6 {
     font-weight: 400;
 }
 
+.input-button-reset input, .input-button-reset button {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.input-button-reset input {
+    background: transparent;
+    border-bottom: 2px solid #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 @media (min-width: 1200px) {
     .padding-ajuste {
         padding: 0 8% !important;
+    }
+    .input-button-reset input {
+        font-size: 16px;
     }
 }
 

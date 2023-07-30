@@ -136,6 +136,33 @@ footer h6 {
     font-size: 20px;
 }
 
+[data-bs-theme="dark"] {
+    color: white !important;
+    --cor-fundo: #212529;
+    --bs-body-bg: #16181B;
+}
+
+[data-bs-theme="dark"] .nav-link, footer h6 {
+    color: white !important;
+}
+
+[data-bs-theme="dark"] .bg-body-tertiary, footer {
+    background-color: #16181B !important;
+}
+
+[data-bs-theme="dark"] footer {
+    background-color: #16181B !important;
+}
+
+[data-bs-theme="dark"] .card-plan-white {
+    color: #000;
+    background-color: #EFF8FF;
+}
+
+[data-bs-theme="dark"] .card-plan-white p {
+    color: #293145;
+}
+
 @media (min-width: 1200px) {
     .padding-ajuste {
         padding: 0 8% !important;

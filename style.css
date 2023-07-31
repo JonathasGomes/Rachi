@@ -118,7 +118,7 @@ h1 {
 }
 
 footer h6 {
-    color: var(--cor-fonte-primario);
+    color: var(--cor-fonte-primario) !important;
     font-family: var(--font-sora);
     font-weight: 400;
 }
@@ -142,11 +142,11 @@ footer h6 {
     --bs-body-bg: #16181B;
 }
 
-[data-bs-theme="dark"] .nav-link, footer h6 {
+[data-bs-theme="dark"] .nav-link, [data-bs-theme="dark"] footer h6 {
     color: white !important;
 }
 
-[data-bs-theme="dark"] .bg-body-tertiary, footer {
+[data-bs-theme="dark"] .bg-body-tertiary {
     background-color: #16181B !important;
 }
 

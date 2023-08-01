@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://img001.prntscr.com/file/img001/vdr6PE3BRZCEtfcM6uXRVg.png" width="100%" />
-</p>
+<h1 align="center">Rachi</h1>
+
+<img src="https://img001.prntscr.com/file/img001/vdr6PE3BRZCEtfcM6uXRVg.png" width="100%" />
 
 ## 💻 Projeto
 Este projeto é uma landing page de uma empresa fictícia chamada Rachi. Foi criado com o intuito de aprender sobre os conceitos do Bootstrap.

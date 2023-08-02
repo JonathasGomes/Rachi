@@ -8,6 +8,11 @@ Este projeto é uma landing page de uma empresa fictícia chamada Rachi. Foi cri
 Nesta landing page, contém seções de funcionalidades, aplicativo para celulares, planos, contato e também o modo noturno.
 
 Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o [**Iuri Silva**](https://www.linkedin.com/in/iuricode/)
+
+## 🎞️ Apresentação
+
+https://github.com/JonathasGomes/Rachi/assets/67432436/1b2576d6-988d-4b5b-9605-15120f765631
+
 ## ✈️ Deploy
 
 [Clique aqui para acessar o site](https://rachi-ten.vercel.app)
